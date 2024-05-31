@@ -11,6 +11,14 @@ public:
 		return mHp;
 	}
 
+	void takeDamage(int amount) {
+		mHp -= amount;
+
+		if (mHp < 0) {
+			mHp = 0;
+		}
+	}
+
 private:
 	int mHp;
 };
