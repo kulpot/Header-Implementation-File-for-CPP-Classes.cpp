@@ -7,6 +7,9 @@ public:
 		mHp = hp;
 	}
 
+	int getHp() {
+		return mHp;
+	}
 
 private:
 	int mHp;
