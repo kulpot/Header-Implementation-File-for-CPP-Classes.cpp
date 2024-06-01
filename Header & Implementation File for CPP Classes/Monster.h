@@ -3,6 +3,7 @@ class Monster
 {
 public:
 	Monster(int hp);
+	int getHp();
 private:
 	int mHp;
 };
