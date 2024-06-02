@@ -5,5 +5,5 @@ Monster::Monster(int hp) {
 }
 
 int Monster::getHp() {
-
+	return mHp;
 }
