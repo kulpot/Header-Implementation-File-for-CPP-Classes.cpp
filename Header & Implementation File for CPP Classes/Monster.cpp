@@ -12,6 +12,6 @@ void Monster::takeDamage(int amount) {
 	mHp -= amount;
 
 	if (mHp < 0) {
-
+		mHp = 0;
 	}
 }
