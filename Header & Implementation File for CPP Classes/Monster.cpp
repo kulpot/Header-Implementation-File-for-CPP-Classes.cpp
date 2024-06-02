@@ -9,5 +9,5 @@ int Monster::getHp() {
 }
 
 void Monster::takeDamage(int amount) {
-
+	mHp -= amount;
 }
