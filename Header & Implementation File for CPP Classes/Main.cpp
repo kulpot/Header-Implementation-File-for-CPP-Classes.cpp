@@ -27,7 +27,7 @@
 
 int main() {
 	Monster monster{ 100 };
-
+	monster.takeDamage(50);
 
 	return 0;
 }
