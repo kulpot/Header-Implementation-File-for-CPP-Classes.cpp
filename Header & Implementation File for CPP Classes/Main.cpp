@@ -23,6 +23,7 @@
 //};
 
 #include "Monster.h"
+#include <iostream>
 
 int main() {
 	Monster monster{ 100 };
