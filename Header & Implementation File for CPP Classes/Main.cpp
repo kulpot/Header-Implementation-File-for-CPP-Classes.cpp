@@ -22,6 +22,8 @@
 //	int mHp;
 //};
 
+#include "Monster.h"
+
 int main() {
 	Monster monster{ 100 };
 
