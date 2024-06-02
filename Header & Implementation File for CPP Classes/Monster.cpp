@@ -7,3 +7,7 @@ Monster::Monster(int hp) {
 int Monster::getHp() {
 	return mHp;
 }
+
+void Monster::takeDamage(int amount) {
+
+}
