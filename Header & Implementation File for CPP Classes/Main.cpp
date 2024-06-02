@@ -23,5 +23,8 @@
 //};
 
 int main() {
+	Monster monster{ 100 };
+
+
 	return 0;
 }
