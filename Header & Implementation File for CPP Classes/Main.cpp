@@ -20,7 +20,7 @@
 //
 //private:
 //	int mHp;
-//};
+//}; 
 
 #include "Monster.h"
 #include <iostream>
